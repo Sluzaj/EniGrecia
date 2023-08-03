@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/EniGrecia" mode="merge"/>
+    <filter root="/content/EniGrecia" mode="merge"/>
+    <filter root="/content/dam/EniGrecia" mode="merge">
+        <exclude pattern="/content/dam/EniGrecia(/.*)?"/>
+        <include pattern="/content/dam/EniGrecia/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/EniGrecia/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/EniGrecia" mode="merge"/>
+</workspaceFilter>

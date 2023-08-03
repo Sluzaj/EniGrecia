@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/EniGrecia/clientlibs"/>
+    <filter root="/apps/EniGrecia/components"/>
+    <filter root="/apps/EniGrecia/i18n"/>
+    <filter root="/apps/sling" />
+</workspaceFilter>
